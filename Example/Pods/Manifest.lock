@@ -1,0 +1,16 @@
+PODS:
+  - HRLoader (0.1.0)
+
+DEPENDENCIES:
+  - HRLoader (from `../`)
+
+EXTERNAL SOURCES:
+  HRLoader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRLoader: c87c257d640ef5d55e0ee06b7e70de7da7a433f8
+
+PODFILE CHECKSUM: f99ec402003096744efe7f4cd4fc11cceba2749b
+
+COCOAPODS: 1.3.1

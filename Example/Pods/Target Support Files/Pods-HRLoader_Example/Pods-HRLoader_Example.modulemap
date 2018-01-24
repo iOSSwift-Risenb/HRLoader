@@ -1,0 +1,6 @@
+framework module Pods_HRLoader_Example {
+  umbrella header "Pods-HRLoader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
