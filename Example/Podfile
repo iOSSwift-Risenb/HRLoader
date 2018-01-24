@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HRLoader_Example' do
+  pod 'HRLoader', :path => '../'
+
+  target 'HRLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
