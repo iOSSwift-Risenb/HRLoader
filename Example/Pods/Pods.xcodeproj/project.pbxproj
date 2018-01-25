@@ -14,6 +14,8 @@
 		3544FEE30D9867DAFEF8BD0F20011384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4AA2B26713457370A3D2FAC4E2DF441D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		57E8B4E239B582BB16222B207EECC412 /* HRLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A40981B5EBACAE0402432BCE73DB20 /* HRLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C22AE192019C287002917D4 /* HRLoader_UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22AE182019C287002917D4 /* HRLoader_UITableView.swift */; };
+		5C22AE1B2019C537002917D4 /* HRLoader_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22AE1A2019C537002917D4 /* HRLoader_UIView.swift */; };
 		6C935710D31C72FE0C77AC27B7D62C27 /* Pods-HRLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E87126FAE47C22356A9CAF3863266A94 /* Pods-HRLoader_Example-dummy.m */; };
 		9E2203E3BAB4AF654D654F02B27E16DE /* Pods-HRLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6116CE3C5906C2FC25A8335BCD179281 /* Pods-HRLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D136ADB3D38EB42C902E70A587696E /* HRLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166E13E3A2E699845EA7F57B92C1759 /* HRLoader-dummy.m */; };
@@ -39,32 +41,34 @@
 		338EBA903FBB954D82AAFF1965BAB8F0 /* HRLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLoader.xcconfig; sourceTree = "<group>"; };
 		3AC3FBE33BBFC9DA3C5EDCB1645C03E1 /* Pods-HRLoader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLoader_Example-resources.sh"; sourceTree = "<group>"; };
 		3C824DC76CCF4AFB48F9EF722298C2F4 /* HRLoader_Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HRLoader_Bundle.swift; path = HRLoader/Classes/HRLoader_Bundle.swift; sourceTree = "<group>"; };
-		3E4216DADA64160C52CD08FE90BC7EA4 /* Pods_HRLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLoader_Example.framework; path = "Pods-HRLoader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4216DADA64160C52CD08FE90BC7EA4 /* Pods_HRLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		465E93811DE5949D95DA37D845596663 /* HRLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLoader-prefix.pch"; sourceTree = "<group>"; };
 		4A2257BCC4E6E7211F14968FA3626465 /* Pods-HRLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BC25A8D214ACEE20CED9A57880839E9 /* HRLoader_UIStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HRLoader_UIStoryboard.swift; path = HRLoader/Classes/HRLoader_UIStoryboard.swift; sourceTree = "<group>"; };
 		4E72FA00DFCED2A1F14A269E18AA8E2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51B186B1CEEB03469CB4DAC6B790BB9C /* HRLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLoader.modulemap; sourceTree = "<group>"; };
+		51B186B1CEEB03469CB4DAC6B790BB9C /* HRLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HRLoader.modulemap; sourceTree = "<group>"; };
 		54FC8C665F9BF589A30F8E1BAA94BF5D /* Pods-HRLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLoader_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C22AE182019C287002917D4 /* HRLoader_UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HRLoader_UITableView.swift; path = HRLoader/Classes/HRLoader_UITableView.swift; sourceTree = "<group>"; };
+		5C22AE1A2019C537002917D4 /* HRLoader_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HRLoader_UIView.swift; path = HRLoader/Classes/HRLoader_UIView.swift; sourceTree = "<group>"; };
 		6116CE3C5906C2FC25A8335BCD179281 /* Pods-HRLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6428B1AEFDBE346B9A1934EC93A6C046 /* Pods-HRLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLoader_Tests.modulemap"; sourceTree = "<group>"; };
+		6428B1AEFDBE346B9A1934EC93A6C046 /* Pods-HRLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLoader_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67A40981B5EBACAE0402432BCE73DB20 /* HRLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLoader-umbrella.h"; sourceTree = "<group>"; };
 		67C399218123AFD4E3F945AEDC54659C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B4272C6B9278AABC1E6A75B13A35714 /* HRLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRLoader.framework; path = HRLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4272C6B9278AABC1E6A75B13A35714 /* HRLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HRLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7166E13E3A2E699845EA7F57B92C1759 /* HRLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRLoader-dummy.m"; sourceTree = "<group>"; };
 		84199DE4360CB6567B1FD1FE6F643CEA /* Pods-HRLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		876F52DA77CE20FEC7C1218157A7A796 /* Pods-HRLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLoader_Tests-dummy.m"; sourceTree = "<group>"; };
 		8947933AD050D1FA0C500F173A91EA49 /* Pods-HRLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F4CCBA46BE428F0EC6BEB42CE236BB1 /* Pods-HRLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987894CE6CD6019B18F5B5F18D4438A2 /* Pods-HRLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C91136D728115DE0F6A1AFE114C4BFC /* Pods-HRLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A23EEF082407E80CFE24E196AE28D78A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B701E66BA5C7F32B21F8369BE3F16B4E /* Pods-HRLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLoader_Example.modulemap"; sourceTree = "<group>"; };
+		B701E66BA5C7F32B21F8369BE3F16B4E /* Pods-HRLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLoader_Example.modulemap"; sourceTree = "<group>"; };
 		CA411405958276E9F1EAF166DB0BFFC2 /* Pods-HRLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB62F8B90E96180E67256A4CD4D7CBEE /* Pods-HRLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D008A3A85C6AEE55130B223C887022F1 /* Pods_HRLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLoader_Tests.framework; path = "Pods-HRLoader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D008A3A85C6AEE55130B223C887022F1 /* Pods_HRLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87126FAE47C22356A9CAF3863266A94 /* Pods-HRLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLoader_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,8 @@
 				3C824DC76CCF4AFB48F9EF722298C2F4 /* HRLoader_Bundle.swift */,
 				218311C02B77BA2890FBED69E810340F /* HRLoader_UIImage.swift */,
 				4BC25A8D214ACEE20CED9A57880839E9 /* HRLoader_UIStoryboard.swift */,
+				5C22AE182019C287002917D4 /* HRLoader_UITableView.swift */,
+				5C22AE1A2019C537002917D4 /* HRLoader_UIView.swift */,
 				35D7E80A0759EE92BD189D95D8C89A91 /* Support Files */,
 			);
 			name = HRLoader;
@@ -331,6 +337,8 @@
 				346F765D9633B7CEDAEA17F49B5BA3EA /* HRLoader_Bundle.swift in Sources */,
 				EDA4D91F7500DE847424D188301C704A /* HRLoader_UIImage.swift in Sources */,
 				B5C73814782E9E6154242419D2CDA6FE /* HRLoader_UIStoryboard.swift in Sources */,
+				5C22AE192019C287002917D4 /* HRLoader_UITableView.swift in Sources */,
+				5C22AE1B2019C537002917D4 /* HRLoader_UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
