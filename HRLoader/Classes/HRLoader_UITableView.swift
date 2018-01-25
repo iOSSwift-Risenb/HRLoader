@@ -6,26 +6,27 @@
 //
 
 public extension UITableView {
-    public func hrRegisterNibCell(moduleName: String, bundleName: String, nibName: String, identifier: String?) {
+    public func HRRegister(moduleName: String, bundleName: String, nibName: String, cellIdentifier: String?) {
         
-        var id:String
-        if identifier == nil {
-            id = nibName
+        var identifier:String
+        if cellIdentifier != nil {
+            identifier = cellIdentifier!
         } else {
-            id = identifier!
+            identifier = nibName
         }
         
-        self.register(UINib.init(nibName: nibName, bundle: Bundle.hrInit(moduleName: moduleName, bundleName: bundleName)), forCellReuseIdentifier: id)
+        self.register(UINib.init(nibName: nibName, bundle: Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)), forCellReuseIdentifier: identifier)
     }
     
-    public func hrRegisterNibHeaderFooter(moduleName: String, bundleName: String, nibName: String, identifier: String?) {
+    public func HRRegister(moduleName: String, bundleName: String, nibName: String, headerFooterIdentifier: String?) {
         
-        var id:String
-        if identifier == nil {
-            id = nibName
+        var identifier:String
+        if headerFooterIdentifier != nil {
+            identifier = headerFooterIdentifier!
         } else {
-            id = identifier!
+            identifier = nibName
         }
-        self.register(UINib.init(nibName: nibName, bundle: Bundle.hrInit(moduleName: moduleName, bundleName: bundleName)), forCellReuseIdentifier: id)
+        
+        self.register(UINib.init(nibName: nibName, bundle: Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)), forHeaderFooterViewReuseIdentifier: identifier)
     }
 }

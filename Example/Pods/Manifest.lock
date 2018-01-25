@@ -1,5 +1,5 @@
 PODS:
-  - HRLoader (0.1.0)
+  - HRLoader (0.1.1)
 
 DEPENDENCIES:
   - HRLoader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HRLoader: c87c257d640ef5d55e0ee06b7e70de7da7a433f8
+  HRLoader: 2ed71812893f848ad34e6fb3fc26f997cade0187
 
 PODFILE CHECKSUM: f99ec402003096744efe7f4cd4fc11cceba2749b
 

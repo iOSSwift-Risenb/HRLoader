@@ -6,8 +6,8 @@
 //
 
 public extension UIStoryboard {
-    public class func hrInit(moduleName: String, bundleName: String, storyboardName: String) -> UIStoryboard? {
-        if let bundle = Bundle.hrInit(moduleName: moduleName, bundleName: bundleName) {
+    public class func HRInit(moduleName: String, bundleName: String, storyboardName: String) -> UIStoryboard? {
+        if let bundle = Bundle.HRInit(moduleName: moduleName, bundleName: bundleName) {
             return UIStoryboard.init(name: storyboardName, bundle: bundle)
         }
         return nil
