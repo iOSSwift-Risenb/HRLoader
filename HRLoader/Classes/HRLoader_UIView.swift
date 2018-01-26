@@ -6,7 +6,12 @@
 //
 
 public extension UIView {
-    public class func HRInit(moduleName: String, bundleName: String) -> UIView? {
-        return Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)?.loadNibNamed(String(describing: self), owner: self, options: nil)?.first as? UIView
+    
+    public class func HRInit(moduleName: String, bundleName: String) -> Self? {
+        return _HRInit(moduleName: moduleName, bundleName: bundleName)
+    }
+    
+    private class func _HRInit<T>(moduleName: String, bundleName: String) -> T {
+        return Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)?.loadNibNamed(String(describing: self), owner: nil, options: nil)?.first as! T
     }
 }
