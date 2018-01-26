@@ -7,6 +7,6 @@
 
 public extension UIView {
     public class func HRInit(moduleName: String, bundleName: String) -> UIView? {
-        return Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)?.loadNibNamed(NSStringFromClass(self), owner: self, options: nil)?.first as? UIView
+        return Bundle.HRInit(moduleName: moduleName, bundleName: bundleName)?.loadNibNamed(String(describing: self), owner: self, options: nil)?.first as? UIView
     }
 }
